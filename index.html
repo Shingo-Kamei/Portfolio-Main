@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LPの練習" />
+    <!-- reset.css ress -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
+    <title>LPの練習</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <h1 class="site-title">
+            <a href="#">Shingo Kamei</a>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#works">WORKS</a></li>
+                <li><a href="#hobby">HOBBY</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <!-- <li>
+                    <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><img src="./img/twitter.png"
+                            alt="Twitter" class="icon" /></a>
+                </li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main -->
+    <div id="main">
+        <picture>
+            <source media="(max-width: 600px)" srcset="./img/image0 (2).jpeg" />
+            <img src="./img/image0 (2).jpeg" alt="">
+        </picture>
+    </div>
+
+    <!-- about -->
+    <section id="about" class="wrapper">
+        <h2 class="sec-title">ABOUT ME</h2>
+        <div class="description">ー　私について　ー</div>
+        <h3 class="my-name">亀井　信吾</h3>
+        <div class="introductin">
+            <p>愛媛県松山市在住の31歳です。</p>
+            <p>2022年2月からプログラミングスクールに通い、転職に向けて毎日勉強をしています。</p>
+            <p>言語はHTML&CSS、PHP、Laravelの基礎学習をしました。</p>
+            <p>今後は学んだ言語や初めての言語などをより深く勉強していきたいと思っています。</p>
+        </div>
+    </section>
+
+    <!-- works -->
+    <section id="works" class="wrapper">
+        <h2 class="sec-title">WORKS</h2>
+        <div class="description">ー　成果物　ー</div>
+        <ul>
+            <li><a href="https://github.com/Shingo-Kamei"><img src="./img/GitHub.png" alt="works1" /></li></a>
+            <li><a href=""><img src="./img/twitter.png" alt="works1" /></li></a>
+            <li><a href=""><img src="./img/insta.png" alt="works1" /></li></a>
+        </ul>
+    </section>
+
+    <!-- hobby -->
+    <section id="hobby" class="wrapper">
+        <h2 class="sec-title">HOBBY</h2>
+        <div class="description">ー　趣味　ー</div>
+        <dl>
+            <dt>映画鑑賞</dt>
+            <dd>ディズニー・アクション・SF</dd>
+            <dt>旅行</dt>
+            <dd>行ってみたいとこ→沖縄・北海道・海外</dd>
+            <dt>お酒</dt>
+            <dd>お酒全般</dd>
+            <dt>釣り</dt>
+            <dd>海釣り・バス釣り</dd>
+        </dl>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="wrapper">
+        <h2 class="sec-title">CONTACT</h2>
+        <p>お問い合わせは以下のフォームから</p>
+        <form action="#" method="post">
+            <dl>
+                <dt><label for="name">お名前</label></dt>
+                <dd><input type="text" id="name" /></dd>
+                <dt><label for="email">メールアドレス</label></dt>
+                <dd><input type="text" id="email" /></dd>
+                <dt><label for="content">内容</label></dt>
+                <dd><textarea id="content" cols="30" rows="10"></textarea></dd>
+            </dl>
+            <div class="button"><input type="submit" value="送信" /></div>
+        </form>
+    </section>
+
+</body>
+
+</html>
