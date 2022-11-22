@@ -130,8 +130,9 @@ li {
 #works ul li img {
     cursor: pointer;
     transition: all 0.3s;
+    width: 150px;
     height: 150px;
-    
+    object-fit: cover;    
 }
 
 #works ul li img:hover {
